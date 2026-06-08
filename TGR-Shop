@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jasa Game Store</title>
+
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      margin:0;
+      background:#f2f2f2;
+    }
+
+    header{
+      background:#121212;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    .container{
+      padding:15px;
+    }
+
+    .produk{
+      background:white;
+      border-radius:12px;
+      padding:15px;
+      margin-bottom:20px;
+      box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .produk img{
+      width:100%;
+      border-radius:10px;
+    }
+
+    .produk h2{
+      margin-top:12px;
+    }
+
+    .harga{
+      color:green;
+      font-size:20px;
+      font-weight:bold;
+      margin-top:8px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:12px;
+      background:#25D366;
+      color:white;
+      text-decoration:none;
+      padding:10px 16px;
+      border-radius:8px;
+      font-weight:bold;
+    }
+
+    footer{
+      text-align:center;
+      color:gray;
+      padding:20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>JASA GAME STORE</h1>
+  <p>Melayani jual item & top up game cepat dan aman</p>
+</header>
+
+<div class="container">
+
+  <div class="produk">
+    <img src="https://picsum.photos/500/300?gaming">
+
+    <h2>Jasa Jual Item Game</h2>
+
+    <p>
+      Melayani jual beli item berbagai game online dengan proses cepat,
+      aman, dan terpercaya. Bisa request item tertentu sesuai kebutuhan.
+    </p>
+
+    <div class="harga">
+      Harga menyesuaikan
+    </div>
+
+    <a class="btn"
+    href="https://wa.me/6283849038468">
+    Hubungi WhatsApp
+    </a>
+  </div>
+
+  <div class="produk">
+    <img src="https://picsum.photos/500/300?game">
+
+    <h2>Top Up Game</h2>
+
+    <p>
+      Melayani top up game berbagai platform dengan harga bersaing
+      dan proses cepat. Tersedia berbagai nominal sesuai kebutuhan.
+    </p>
+
+    <div class="harga">
+      Harga menyesuaikan
+    </div>
+
+    <a class="btn"
+    href="https://wa.me/6283849038468">
+    Pesan Sekarang
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Jasa Game Store
+</footer>
+
+</body>
+</html>
