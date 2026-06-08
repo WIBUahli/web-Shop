@@ -1,124 +1,147 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jasa Game Store</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body{
-      font-family: Arial, sans-serif;
-      margin:0;
-      background:#f2f2f2;
-    }
+<title>Arena Store | Jasa Top Up & Jual Item</title>
 
-    header{
-      background:#121212;
-      color:white;
-      text-align:center;
-      padding:20px;
-    }
+<style>
 
-    .container{
-      padding:15px;
-    }
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0f0f0f;
+    color:white;
+}
 
-    .produk{
-      background:white;
-      border-radius:12px;
-      padding:15px;
-      margin-bottom:20px;
-      box-shadow:0 2px 6px rgba(0,0,0,0.1);
-    }
+header{
+    background:url('https://images6.alphacoders.com/132/1324529.jpeg') center/cover;
+    height:300px;
+    position:relative;
+}
 
-    .produk img{
-      width:100%;
-      border-radius:10px;
-    }
+.overlay{
+    background:rgba(0,0,0,0.65);
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
 
-    .produk h2{
-      margin-top:12px;
-    }
+.overlay h1{
+    font-size:40px;
+    margin:0;
+}
 
-    .harga{
-      color:green;
-      font-size:20px;
-      font-weight:bold;
-      margin-top:8px;
-    }
+.overlay p{
+    width:80%;
+    max-width:600px;
+    color:#d0d0d0;
+}
 
-    .btn{
-      display:inline-block;
-      margin-top:12px;
-      background:#25D366;
-      color:white;
-      text-decoration:none;
-      padding:10px 16px;
-      border-radius:8px;
-      font-weight:bold;
-    }
+.container{
+    padding:20px;
+}
 
-    footer{
-      text-align:center;
-      color:gray;
-      padding:20px;
-    }
-  </style>
+.card{
+    background:#1b1b1b;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+.card h2{
+    margin-top:0;
+    color:#f5c542;
+}
+
+.price{
+    color:#00ff88;
+    font-size:22px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 18px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#888;
+    border-top:1px solid #222;
+}
+
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>JASA GAME STORE</h1>
-  <p>Melayani jual item & top up game cepat dan aman</p>
+<div class="overlay">
+<h1>ARENA STORE</h1>
+<p>
+Melayani jasa top up game dan jual item dengan proses cepat,
+aman, dan terpercaya.
+</p>
+</div>
 </header>
 
 <div class="container">
 
-  <div class="produk">
-    <img src="https://picsum.photos/500/300?gaming">
+<div class="card">
+<h2>Jasa Top Up Game</h2>
 
-    <h2>Jasa Jual Item Game</h2>
+<p>
+Melayani berbagai kebutuhan top up game dengan harga bersaing,
+proses cepat, dan pembayaran mudah.
+</p>
 
-    <p>
-      Melayani jual beli item berbagai game online dengan proses cepat,
-      aman, dan terpercaya. Bisa request item tertentu sesuai kebutuhan.
-    </p>
+<div class="price">
+Harga Menyesuaikan
+</div>
 
-    <div class="harga">
-      Harga menyesuaikan
-    </div>
+<a class="btn"
+href="https://wa.me/6283849038468">
+Pesan Sekarang
+</a>
+</div>
 
-    <a class="btn"
-    href="https://wa.me/6283849038468">
-    Hubungi WhatsApp
-    </a>
-  </div>
+<div class="card">
+<h2>Jual Item Game</h2>
 
-  <div class="produk">
-    <img src="https://picsum.photos/500/300?game">
+<p>
+Menyediakan layanan jual beli item game terpercaya dengan
+pelayanan responsif dan aman.
+</p>
 
-    <h2>Top Up Game</h2>
+<div class="price">
+Harga Menyesuaikan
+</div>
 
-    <p>
-      Melayani top up game berbagai platform dengan harga bersaing
-      dan proses cepat. Tersedia berbagai nominal sesuai kebutuhan.
-    </p>
-
-    <div class="harga">
-      Harga menyesuaikan
-    </div>
-
-    <a class="btn"
-    href="https://wa.me/6283849038468">
-    Pesan Sekarang
-    </a>
-  </div>
+<a class="btn"
+href="https://wa.me/6283849038468">
+Hubungi Admin
+</a>
+</div>
 
 </div>
 
 <footer>
-  © 2026 Jasa Game Store
+© 2026 Arena Store
 </footer>
 
 </body>
